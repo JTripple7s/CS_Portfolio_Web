@@ -1,0 +1,147 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #222;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+nav h1 {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+.profile-pic {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.project {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.project a {
+  margin-right: 1rem;
+  color: #007acc;
+  text-decoration: none;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background: #e0e7ff;
+  color: #222;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 400px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+#contact-form button {
+  background: #222;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.social-links {
+  margin-top: 1rem;
+}
+
+.social-links a {
+  margin-right: 1rem;
+  color: #007acc;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #222;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+@media (max-width: 700px) {
+  .project-list {
+    grid-template-columns: 1fr;
+  }
+  nav ul {
+    gap: 1rem;
+  }
+}
