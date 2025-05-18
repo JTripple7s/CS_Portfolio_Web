@@ -61,12 +61,13 @@
 html {
     /* gives transition to scroll */
     scroll-behavior: smooth;
-    background-color: #030712;
+    /* background-color: #030712; */
 }
 
 body {
     font-family: 'General Sans', sans-serif;
     background-color: var(--clr-dark);
+    /* background-color: var(--clr-light); */
     color: var(--clr-light);
 }
 
@@ -78,7 +79,6 @@ svg {
     display: block;
     max-width: 100%;
     user-select: none;
-
 }
 
 button {
