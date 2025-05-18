@@ -1,0 +1,28 @@
+.intro {
+    text-align: center;
+}
+
+.intro__subtitle {
+    color: var(--clr-lsate800);
+    font-size: var(--size-5xl);
+    line-height: 0.9;
+}
+
+.intro__title {
+    color: var(--clr-slate400);
+    text-transform: uppercase;
+    font-size: var(--size-5xl);
+    letter-spacing: -0.05em;
+    line-height: 0.9;
+}
+
+.intro__description {
+    max-width: 60ch;
+    font-size: var(--size-sm);
+    color: var(--clr-lsate600);
+}
+
+.intro__btn {
+    text-transform: capitalize;
+    font-size: var(--size-sm);
+}
