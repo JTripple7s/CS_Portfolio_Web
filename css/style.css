@@ -55,7 +55,7 @@
 /* gives spaceing for the entire page 1.5em */
 * {
     margin: 0;
-    line-height: calc(1em + 0.5rem);
+    line-height: calc(1em + 1rem);
 }
 
 html {
