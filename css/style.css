@@ -61,6 +61,7 @@
 html {
     /* gives transition to scroll */
     scroll-behavior: smooth;
+    background-color: #030712;
 }
 
 body {
