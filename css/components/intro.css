@@ -3,26 +3,32 @@
 }
 
 .intro__subtitle {
-    color: var(--clr-lsate800);
-    font-size: var(--size-5xl);
+    color: var(--clr-slate800);
+    font-size: var(--size-4xl);
     line-height: 0.9;
+    padding-top: 5ch;
 }
 
 .intro__title {
     color: var(--clr-slate400);
     text-transform: uppercase;
-    font-size: var(--size-5xl);
+    font-size: var(--size-7xl);
     letter-spacing: -0.05em;
     line-height: 1;
+    padding-top: 30px;
 }
 
 .intro__description {
     max-width: 60ch;
-    font-size: var(--size-sm);
-    color: var(--clr-lsate600);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: var(--size-lg);
+    color: var(--clr-slate600);
+    padding-top: 30px;
 }
 
 .intro__btn {
     text-transform: capitalize;
     font-size: var(--size-sm);
+    margin-top: 40px;
 }
