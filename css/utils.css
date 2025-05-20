@@ -31,6 +31,24 @@
     margin-top: 5rem;
 }
 
+#backToTop {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+    padding: 1 em 1.5em;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(30px);
+    transition: opacity 0.4s, transform 0.4s;
+}
+
+#backToTop.visible {
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+}
+
 /* xs */
 @media (min-width: 475px) {
     .container{
