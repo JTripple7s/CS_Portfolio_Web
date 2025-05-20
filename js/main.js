@@ -12,5 +12,19 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.classList.remove('visible');
     }
   });
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const animation = entry.target.dataset.animate || 'animate__rotateInUpLeft'
+        entry.target.classList.add('animate__animated', animation);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0 });
+
+  document.querySelectorAll('.animate-on-scroll').forEach(el => {
+    observer.observe(el);
+  });
 });
 
