@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
+    gap: 20rem;
 }
 
 
@@ -63,7 +64,7 @@
     font-size: var(--size-sm);
 }
 
-.work__project:not(:last-child) {
+.work__project {
     margin-bottom: 5rem;
     padding: 0 1rem;
 }

@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/components/intro.css"  />
   <link rel="stylesheet" href="css/components/about.css"  />
   <link rel="stylesheet" href="css/components/work.css"  />
+  <link rel="stylesheet" href="css/components/contact.css"  />
 
   <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
 
@@ -54,7 +55,7 @@
     <section class="intro container">
       <h1 class="intro__subtitle"><strong>Hello, I'm Joel</strong></h1>
       <h2 class="intro__title">Student at CSUSM <br> Full-stack development</h2>
-      <p class="intro__description">I am a computer Science student passionate about software development, algorithms, and building impactful projects. Welcome to my portfolio!</p>
+      <p class="intro__description">I am a Computer Science student passionate about software development, algorithms, and building impactful projects. Welcome to my portfolio!</p>
       <a class="intro__btn btn" href="#contact">Contact</a>
     </section>
 
@@ -256,10 +257,55 @@
         </div>
       </div>
     </section>
-    <!-- <section></section>
-    <section></section> -->
+    <!-- contact section -->
+    <section class="contact container section" id="contact">
+      <h2 class="contact__title">Contact</h2>
+      <p class="contact__description">
+        Thank you for taking the time to review my portfolio and learn about me a bit. 
+        I am enthusiastic about applying my skills and passion for technology to real-world challenges 
+        and am actively seeking opportunities to contribute to innovative teams. If you believe my experience and projects align with your organization's 
+        needs, I would welcome the chance to discuss how I can add value to your team. Please feel free to contact me using the form below or connect 
+        with me on LinkedIn or GitHub. I look forward to the possibility of working together!
+      </p>
+        <form id="contact-form">
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+        <div class="social-links">
+          <a
+            href="https://github.com/JTripple7s"
+            target="_blank"
+            >GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/joelburlingame777"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </div>
+    </section>
   </main>
-  <footer></footer>
+  <footer>
+    <p>
+        &copy; 2025 Joel Burlingame. burli012@csusm.edu. Built with HTML, CSS, and JavaScript.
+      </p>
+  </footer>
   <script> src="js/main.js"</script>
 </body>
 </html>
