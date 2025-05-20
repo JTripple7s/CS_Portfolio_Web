@@ -35,7 +35,7 @@
   font-size: 1rem;
 }
 
-#contact-form button {
+/* #contact-form button {
   background: var(--clr-grey);
   color: var(--clr-light);
   border: none;
@@ -43,7 +43,7 @@
   border-radius: 4px;
   cursor: pointer;
   font-size: 1rem;
-}
+} */
 
 .social-links {
   margin-top: 1rem;

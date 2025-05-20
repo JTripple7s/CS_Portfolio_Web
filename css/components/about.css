@@ -77,7 +77,7 @@
     justify-content: space-evenly;
     height: 100px;
     width: 160px;
-    border: double 3px red;
+    border: double 3px var(--clr-rose);
     border-image-slice: 1;
     border-width: 3px;
 
