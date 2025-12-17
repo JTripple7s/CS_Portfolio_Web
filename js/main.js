@@ -26,5 +26,31 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.animate-on-scroll').forEach(el => {
     observer.observe(el);
   });
+
+   const form = document.getElementById('contact-form');
+  const status = document.getElementById('form-status');
+
+  if (form) {
+    form.addEventListener('submit', async e => {
+      e.preventDefault();
+
+      status.textContent = 'Sending...';
+
+      // Example: using EmailJS (requires setup)
+      try {
+        await emailjs.sendForm(
+          'service_adghusu',
+          'template_wzz469b',
+          form,
+          'YSy6a2SyhwOHmKsIB9'
+        );
+        status.textContent = 'Message sent successfully!';
+        form.reset();
+      } catch (err) {
+        console.error(err);
+        status.textContent = 'Something went wrong. Please try again later.';
+      }
+    });
+  }
 });
 

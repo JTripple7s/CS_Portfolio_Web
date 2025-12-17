@@ -69,10 +69,12 @@
     <section class="about container section" id="about">
       <div class="about__content1 animate-on-scroll">
         <h2 class="about__title">About</h2>
-        <p class="about__description">Director of dynamic interpolation for comprehensive media distribution and analysis as it applies to heuristic
-           community building and efficient workplace design practices through the open <strong>ambiguity foundation.</strong> Former head of technical 
-           minutiae at the global foundation of situational systematic dependence and programmatic regression analysis.
-            Lead team lead at corpcorp.
+        <p class="about__description">I'm currently a Computer Sceince student at California State University San Marcos with hands-on experience in C++, Java, and Python.
+          my interests lie is software engineering, cybersecurity, and Artificial Intelligence, with a strong foundation in data structures and object-oriented programming. I enjoy 
+          tackling complex technical challenges, writing clean and efficient code, and continuously learning new technologies to imporve my development process.
+        </p>
+        <p class="about__description">I'm currently seeking opportunities to grow as a software engineer, particularily in roles that emphasize building scalable applications,
+          solving, and collaboration within a technical team. 
         </p>
         <p class="about__description">
           The unique combination of creativity, logic, technology and never running out of new things to discover,
@@ -195,7 +197,7 @@
     <section class="work container section" id="projects">
       <h2 class="work__title">Projects</h2>
       <p class="work__description">
-        Welcome to my project showcase! Here, you'll find a curated selection of the <strong>software and web applications</strong> 
+        Welcome to my project showcase! Here, you'll find a curated selection of the <strong>software applications</strong> 
         I've built throughout my journey as a computer science student. Each project reflects my passion for 
         problem-solving, creativity, and <a>continuous learning</a>. 
         From web development to algorithmic challenges, these works highlight my technical skills, adaptability, and commitment 
@@ -203,42 +205,50 @@
       </p>
       <div class="work__container">
         <!-- project1 -->
-        <h3 class="work__project-title">Project 1</h3>
+        <h3 class="work__project-title">PageTuner</h3>
         <div class="work__img-wrapper animate-on-scroll" data-animate="animate__slideInLeft">
-          <img src="images/Project-Coming-Soon-Placeholder-625x423.png" alt="temp img" class="animate-on-scroll" data-animate="animate__slideInLeft"/>
+          <img src="images/PageTunerExample1.png" alt="temp img" class="animate-on-scroll" data-animate="animate__slideInLeft"/>
         </div>
         <div class="work__project animate-on-scroll" data-animate="animate__fadeIn">
-          <h3 class="work__project-subtitle">Project 1</h3>
+          <h3 class="work__project-subtitle">PageTuner</h3>
+          <p class="work__project2-description"><strong>Role:</strong> Backend Developer, System Architect</p>
+          <p class="work__project2-description"><a>Technologies:</a> Java, Java Swing, OpenLibrary.org API</p>
           <p class="work__project-description">
-            This is a placeholder project highlighting my skills in web development and design. 
-            It features a simple, responsive interface and demonstrates my ability to build functional, user-friendly applications. 
-            More details and a live demo will be added soon!
+            Developed a Java-based library management and book recommendation application as part of a team class project. 
+            The system enables users to create profiles, track borrowed and read books, and receive personalized book recommendations. 
+            Recommendations are generated using a custom-built algorithm that assigns weighted scores based on a user’s quiz responses and reading history.
           </p>
           <p class="work__project-description">
-            This is a sample project that demonstrates my ability to design and develop interactive web applications. 
-            The project features a clean user interface, responsive design, and intuitive functionality. Built using modern web 
-            technologies, it showcases my skills in front-end development, problem-solving, and attention to detail. 
-            Please check back soon for a full description and live demo!
+            I designed and implemented the backend logic, integrating the front-end interface with the core functionality. 
+            This included creating the navigation flow, data handling systems, and backend logic to connect all modules seamlessly. 
+            The application retrieves and processes book data from the OpenLibrary API to generate dynamic suggestions.
+          </p>
+          <p class="work__project-description">
+            The project was fully functional upon completion and received an A+ grade for its usability, design cohesion, and robust backend integration.
           </p>
           <a class="btn work__project-btn" href="#">View Code</a>
         </div>
         <!-- project2 -->
-         <h3 class="work__project-title">Project 2</h3>
+         <h3 class="work__project-title">Game of War</h3>
         <div class="work__img-wrapper animate-on-scroll" data-animate="animate__slideInLeft">
-          <img src="images/Project-Coming-Soon-Placeholder-625x423.png" alt="temp img" class="animate-on-scroll" data-animate="animate__slideInLeft"/>
+          <img src="images/gameOfWarExample.png" alt="temp img" class="animate-on-scroll" data-animate="animate__slideInLeft"/>
         </div>
         <div class="work__project animate-on-scroll" data-animate="animate__fadeIn">
-          <h3 class="work__project-subtitle">Project 2</h3>
+          <h3 class="work__project-subtitle">Game of War</h3>
+          <p class="work__project2-description"><strong>Role:</strong> Solo development</p>
+          <p class="work__project2-description"><a>Technologies:</a> Java, JavaFX</p>
           <p class="work__project-description">
-            This is a placeholder project highlighting my skills in web development and design. 
-            It features a simple, responsive interface and demonstrates my ability to build functional, user-friendly applications. 
-            More details and a live demo will be added soon!
+            Developed a simple yet engaging card game using Java and JavaFX. The game logic compares two randomly drawn cards each round,
+             the player with the higher-value card wins the turn and earns points equal to the card’s value.
+              The match continues until one player reaches a pre-set score threshold.
           </p>
           <p class="work__project-description">
-            This is a sample project that demonstrates my ability to design and develop interactive web applications. 
-            The project features a clean user interface, responsive design, and intuitive functionality. Built using modern web 
-            technologies, it showcases my skills in front-end development, problem-solving, and attention to detail. 
-            Please check back soon for a full description and live demo!
+            Designed and implemented the full project independently, including all gameplay mechanics, user interface, and asset handling. 
+            The GUI displays player scores, round results, and dynamically updated card images (using custom JPG assets).
+          </p>
+          <p class="work__project-description">
+            This project served as a personal exploration into JavaFX fundamentals and object-oriented game design, 
+            reinforcing core programming structure and UI event handling concepts.
           </p>
           <a class="btn work__project-btn" href="#">View Code</a>
         </div>
@@ -294,6 +304,7 @@
           ></textarea>
           <button type="submit" class="btn">Send</button>
         </form>
+        <p id="form-status"></p>
         <div class="social-links">
           <a
             href="https://github.com/JTripple7s"
@@ -313,6 +324,12 @@
         &copy; 2025 Joel Burlingame. burli012@csusm.edu. Built with HTML, CSS, and JavaScript.
       </p>
   </footer>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+  (function () {
+    emailjs.init('YSy6a2SyhwOHmKsIB9'); // your public key here
+  })();
+</script>
   <script src="js/main.js"></script>
 </body>
 </html>
