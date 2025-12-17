@@ -59,6 +59,11 @@
     color: var(--clr-slate600);
     margin: 1rem 0;
 }
+.work__project2-description {
+    font-size: var(--size-sm);
+    color: var(--clr-slate600);
+    margin: .1rem 0;
+}
 
 .work__project-btn {
     font-size: var(--size-sm);
