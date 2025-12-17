@@ -49,6 +49,20 @@
     transform: scale(1);
 }
 
+/* Initial state */
+.animate-on-scroll {
+  opacity: 1;
+  transform: translateY(40px);
+  transition: opacity 0.6s ease, transform 0.6s cubic-bezier(.23,1.01,.32,1);
+}
+
+/* Animated state */
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
 /* xs */
 @media (min-width: 475px) {
     .container{
