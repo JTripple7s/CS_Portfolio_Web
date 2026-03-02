@@ -5,6 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
   btn.onclick = () =>
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
+  contact.onclick = () =>
+    window.scrollTo({ bottom: 0, behavior: 'smooth'});
+
   window.addEventListener('scroll', () => {
     if (window.scrollY > 200) {
       btn.classList.add('visible');
